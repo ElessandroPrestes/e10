@@ -1,0 +1,23 @@
+{
+  "name": "e10.com.br",
+  "version": "1.0.0",
+  "description": "Gulp",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "del": "^3.0.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-touch": "^1.0.1",
+    "gulp": "^3.9.1",
+    "gulp-htmlmin": "^5.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "Elessandro",
+  "license": "ISC"
+}
