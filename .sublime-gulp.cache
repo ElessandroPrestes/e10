@@ -1,0 +1,1 @@
+{"C:\\xampp\\htdocs\\e10.com.br\\gulpfile.js":{"sha1":"52c62a6027c92a947b246bdc653dd4afc66b51ac","tasks":{"style":{"name":"style","dependencies":""},"indexphp":{"name":"indexphp","dependencies":""},"default":{"name":"default","dependencies":"indexphp"}}}}
