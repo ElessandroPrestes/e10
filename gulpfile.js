@@ -3,7 +3,7 @@ var htmlmin = require('gulp-htmlmin');
 var browserSync = require('browser-sync').create();
 var notify = require('gulp-notify');
 
-//browserSync
+//browserSync funcionando
 gulp.task('browser-sync', function() {
     browserSync.init({
         server:{
