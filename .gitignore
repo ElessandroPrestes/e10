@@ -3,6 +3,6 @@ dist/
 docs/
 node_modules/
 .sublime-gulp-cache
-.sublime-gulp.log
-.sublime-gulp-ymps.js
+sublime-gulp.log
+sublime-gulp-ymps.js
 
