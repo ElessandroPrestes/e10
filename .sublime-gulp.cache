@@ -1,1 +1,1 @@
-{"C:\\xampp\\htdocs\\e10.com.br\\gulpfile.js":{"sha1":"2357777f5c12f7e7b20dcd4d3e97612d127290a5","tasks":{"browser-sync":{"name":"browser-sync","dependencies":""},"htmlmin":{"name":"htmlmin","dependencies":""},"default":{"name":"default","dependencies":"htmlmin"}}}}
+{"C:\\xampp\\htdocs\\e10.com.br\\gulpfile.js":{"sha1":"fdd6db20bca766a33bd7a8eddbbb0be5df956237","tasks":{"browser-sync":{"name":"browser-sync","dependencies":""},"htmlmin":{"name":"htmlmin","dependencies":""},"default":{"name":"default","dependencies":"htmlmin"}}}}
