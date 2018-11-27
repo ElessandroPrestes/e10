@@ -8,7 +8,11 @@
     <meta name="author" content="Elessandro Prestes Macedo" />
     <meta name="application-name" content="e10.com.br" />
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!-- CDN-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Finger+Paint" rel="stylesheet">
+    
+    <link rel="shortcut icon" type="image/x-icon" href="_img/16E10.ico">
     <link href="_css/style.css"rel="stylesheet" type="text/css">   
     <link href="_css/mobile.css"rel="stylesheet"media="screen and (min-width:300px) and (max-width:700px)"type="text/css">
     <link href="_css/desktop.css" rel="stylesheet" type="text/css">
@@ -19,9 +23,9 @@
  </head>
 
 <body>
-  <header>
+  
     <nav>
-     <img src="_img/E10.png">
+        <img src="_img/E10.png">
           <ul id="menu-desktop">
                 <li><a href="">HOME</a></li>
                 <li><a href="">SOBRE</a></li>
@@ -46,9 +50,16 @@
                 </svg>
             </div>            
         </nav>
-  </header>
 
+    <header>      
+        <h1>E10</h1>
+        <h2 >Developer Frontend</h2>
+        <div class="separator small center"></div>
+    </header>
 
+  
+ 
+  
     <main>
         <article>
             <p>
@@ -82,14 +93,32 @@
         
 
     <footer class="footer" >
-        <h1 class="text">E10</h1>
-        <h2 class="text2">&copy;	E10 - DEVELOPER FRONT END</h2>
-        <h2 class="text3">POWERED BY E10</h2>
+        <img src="_img/rodape_E10.png" id="img-footer">
+
+
+        
+        <div class="social">
+            <a href="https://github.com/ElessandroPrestes" target="blank">  
+                <i class="fab fa-github-square fa-2x"></i>
+            </a> 
+            
+            <a href="https://www.linkedin.com/in/elessandro-prestes-macedo-278189126/" target="blank">  
+                <i class="fab fa-linkedin fa-2x"></i>
+            </a>    
+        </div>
+       <div class="text"> 
+        <p>Copyright&nbsp;<i class="far fa-copyright"></i>&nbsp;2016-2018 -E10 Developer .
+             Todos os direitos reservados.
+        </p>
+    </div>
     </footer>
 
    
-   <!--ok-->
-    <script src="_js/jquery.js" type="text/javascript"></script> 
+   <!--cdn-->
+   <script
+	src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+			  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+			  crossorigin="anonymous"></script>
     <script src="_js/main.js" type="text/javascript"></script>
 
     <!-- Após concatenado e minificado usar este arquivo.
