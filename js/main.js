@@ -13,7 +13,7 @@ $(document).ready(function () {
     $('.jq-back-to-top').click(function () {
         $('html,main,body,header').animate({
             scrollTop: 0
-        }, 2000);
+        }, 1000);
     });
 
 });
