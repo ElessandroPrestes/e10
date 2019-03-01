@@ -23,11 +23,12 @@
  </head>
 
 <body>
-    
-    <nav>
-        <img data-anime="left" src="img/E10.png">
+    <div class="grid-nav">
+      <nav>
+            <img data-anime="left" src="img/E10.png">
+        </div>
        
-        <div data-anime="right" class="social">
+        <div data-anime="right" class="social grid-item">
                 <a href="https://github.com/ElessandroPrestes" target="blank">  
                     <i class="fab fa-github-square fa-2x"></i>
                 </a> 
@@ -39,28 +40,36 @@
                 <a href="https://twitter.com/E1099578061" target="blank">  
                     <i class="fab fa-twitter fa-2x"></i>
                 </a> 
-            </div>       
         </nav>
+    </div>       
 
-        <header>   
-                <figure>
-                    <img data-anime="top" class="profile" src="img/elessandro.jpg" alt="Foto de elessandro">
-                </figure>     
-        </header>      
+
+    <!--Main-->       
     <main>
+        <div class="grid-main">
+            <section>
+                    <div>
+                            <img data-anime="top" class="profile" src="img/elessandro.jpg" alt="Foto de elessandro">
+                    </div> 
+                <div class=" name"> <h1 data-anime="top" >Elessandro</h1> </div>
+                <div class="  dev"> <h2 data-anime="top">< Developer Web /></h2></div>
 
-            <h1 data-anime="top">Elessandro</h1>
-            <h2 data-anime="top">< Developer Frontend /></h2>
-       
+            </section> 
+        </div> 
     </main>
-      
-    <footer class="footer" >  
-       <div class="copyright"> 
-        <p>Copyright&nbsp;<i class="far fa-copyright"></i>
-            2016-2018 -E10 Developer. Todos os direitos reservados.
-        </p>
-    </div>
-    </footer>
+
+    <!--Footer-->
+      <div class="grid-footer footer">
+            <footer >  
+            <div class="copyright"> 
+                <p>Copyright&nbsp;<i class="far fa-copyright"></i>
+                    2016-2018 -E10 Developer. Todos os direitos reservados.
+                </p>
+            </div>
+            </footer>
+      </div>
+
+
 
     <script src="js/jquery.js" ></script>
     <script src="js/main.js" ></script>

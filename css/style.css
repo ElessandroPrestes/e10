@@ -7,6 +7,7 @@ body{
     color: #FFF;
 }
 /* Nav */
+
 nav img {
     position: absolute;
     height: 120px;
@@ -27,39 +28,52 @@ nav img {
     color: rgb(163, 6, 155);
     transition: color .4s ease-out;
 }
-header {
-    width: 100vw;
-    height:20vh;
-} 
-figure{
-    position: relative;
-}
+
+
 .profile{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
     border-radius: 50%;
-    position: absolute;
     width: 30vh;
-    height: 30vh;
-    left: 42vw;
-    top: 15vh; 
+    height: 30vh; 
 }
 
-main{
-    width: 100vw;
-    height: 70vh;
-}
-main h1{
-    font-size: 400%;
+/* Main */
+.name{
     text-align: center;
-    padding-top: 25vh;
+    font-size: 250%;
     text-shadow: 0 0 7px #333;
 }
-main h2{
-    font-size: 300%;
+.dev{
     text-align: center;
-    padding-top: 0;
+    font-size: 225%;
     text-shadow: 0 0 7px #333;
 }
-  
+.grid-nav{
+    height: 10vh;
+    display: grid;
+    grid-gap: 20px;
+}
+
+
+.grid-main{
+    height: 80vh;
+    padding-top: 10vh;
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap:20px;
+
+}
+.grid-footer{
+    background-image: linear-gradient(to top, rgba(125,5,65,0.1)50%, rgba(241, 101, 101,0));
+    width: 100%;
+    height: 10vh;
+    display: grid;
+    grid-gap:20px;
+}
+
 /* Animação javascript puro */
 [data-anime]{
     opacity: 0; 
@@ -99,9 +113,8 @@ main h2{
  /* Footer */
  
 .footer{ 
-    width: 100vw;
-    height: 10vh;
-   
+    bottom: 0;
+    position: absolute;
 }
 
 .copyright{
