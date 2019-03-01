@@ -1,41 +1,67 @@
 
 /* mobile */
+/* Resolução telas de retina*/
+@media (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
 
+}
+/*Paisagem e abaixo*/
+@media screen and (max-width:575.98px){
 nav {
-    width:100vw;
-    height:15vh;
-    background-color: rgb(22, 21, 21);
+    width:100%;
+    height:10vh;
+    background-image: linear-gradient(to bottom, rgba(125,5,65,0.1)50%, rgba(241, 101, 101,0));
 }
 
 nav img {
-    width: 90px;
-    height: 74px;
-    left: 25vh;
-    top: 10vh;
+    position: absolute;
+    height: 120px;
+    left: 6vh;
+    top: 4vh;
 }
+.up{
+    position: absolute;
+    right: 12vh !important;
+    top: 6vh !important;
 
-figure{
-    position: relative;
 }
+.contact{
+    position: absolute;
+    right:17vh !important;
+    top: 14vh !important;
+}
+                
 .profile{
     border-radius: 50%;
-    position: absolute;
+    display: block;
     width: 35vh;
     height: 35vh;
-    left: 23vw;
-    top: 10vh; 
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 5vh !important; 
+}
+.name{
+    font-size:175%;
+}
+.dev{
+    font-size:175%;
 }
 
  /* Footer */
  
-.footer{ 
-    position: realtive;
-    width: 100vw;
+.grid-footer{ 
+    display:grid;
+    grid-gap:10px;
+    width: 100%;
     height: 10vh;
 }
-
+.footer{ 
+    bottom: 0;
+    position: absolute;
+}
 .social{
-    left: 25vh;
+    position: absolute;
+    right: 10vh;
     top: 4vh;
 }
 .fab{
@@ -46,5 +72,46 @@ figure{
     transition: color .4s ease-out;
 }
 
+}
+/*tablet ou paisagem */
+@media (min-width:576px) and (max-width:767.98px){
+    nav img{
+        width:21vh;
+        height: 21vh;
+    }
 
-                
+    .up{
+        right: 16vh !important;
+        top: 9vh !important;
+    }
+    .contact{
+        position: absolute;
+        right:25vh;
+        top: 20vh;
+    }
+                    
+    .profile{
+        border-radius: 50%;
+        display: block;
+        width: 30vh;
+        height: 30vh;
+        margin-left:auto;
+        margin-right: auto;
+        margin-top: 8vh; 
+    }
+    .name{
+        font-size:150%;
+    }
+    .dev{
+        font-size:150%;
+    }
+    
+    
+}
+
+/*Tablet em retrato e paisagem em desktop*/
+@media (min-width:768px) and (max-width:991.98px){
+    .up{
+        right:10vh !important;
+    }
+}
