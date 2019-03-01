@@ -1,6 +1,6 @@
  
 
-//Animação scroll javascript puro
+/*Animação scroll javascript puro
 const debounce = function (func, wait, immediate){
     let timeout;
     return function(...args){
@@ -15,6 +15,15 @@ const debounce = function (func, wait, immediate){
         if(callNow) func.apply(context, args);
     };
 };
+*/
+function trocar(){
+    var obj=document.getElementById("body");
+    if (obj.className=='white'){
+        obj.className='black';
+    }else{
+        obj.className='white';
+    }
+}
 
 const target = document.querySelectorAll('[data-anime]');
 const animationClass = 'animate';
