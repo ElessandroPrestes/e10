@@ -89,7 +89,6 @@ nav img {
     grid-gap: 20px;
 }
 
-
 .grid-main{
     height: 80vh;
     padding-top: 10vh;
@@ -100,14 +99,14 @@ nav img {
 
 }
 .grid-footer{
-    background-image: linear-gradient(to top, rgba(125,5,65,0.1)50%, rgba(241, 101, 101,0));
+    background-image: linear-gradient(to bottom, rgba(125, 6, 65, 0.1)80%, rgba(139, 0, 139, 0));
     width: 100%;
     height: 10vh;
     display: grid;
     grid-gap:20px;
 }
 
-/* Animação javascript puro */
+/* Animation*/
 [data-anime]{
     opacity: 0; 
     transition: .9s;
@@ -131,7 +130,7 @@ nav img {
     transform:translate3d(0px,0px,0px);
 }
 
-/* Animação scroll jquery*/
+/* Animação */
 .anime{
     opacity: 0;
     transform: translate3d(-100px, 0,0);

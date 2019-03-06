@@ -1,0 +1,2 @@
+User-agent:*
+Sitemap:https://elessandroprestes.github.io/e10.com.br/sitemap.xml
