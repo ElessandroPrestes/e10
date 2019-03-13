@@ -1,0 +1,153 @@
+
+/* mobile */
+/* Resolução telas de retina*/
+@media (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+/*Paisagem e abaixo*/
+@media (max-width:575.98px){
+nav {
+    width:100%;
+    height:9vh;
+    background: linear-gradient(to top, rgba(125, 6, 65, 0.1)80%, rgba(139, 0, 139, 0));
+
+}
+
+nav img {
+    width:80px;
+    height: 80px;
+    left: 2vh;
+    top: 2vh;
+}
+.up{
+    right: 12vh;
+    top: 5vh;
+
+}
+.contact{
+    right:18vh !important;
+    top: 12vh !important;
+}
+                
+.profile{
+    border-radius: 50%;
+    display: block;
+    width: 35vh;
+    height: 35vh;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 5vh !important; 
+}
+.name{
+    padding-top:5px;
+    font-size:120%;
+}
+.dev{
+    font-size:135%;
+}
+
+ /* Footer */
+ 
+.grid-footer{ 
+    display:grid;
+    grid-gap:10px;
+    width: 100%;
+    height: 10vh;
+    background-image: none;
+
+}
+.footer{ 
+    bottom: 0;
+    position: absolute;
+
+}
+.social{
+    position: absolute;
+    right: 10vh;
+    top: 4vh;
+}
+.fab{
+    color: rgb(125, 6, 65);
+}
+.fab:hover{
+    color: rgb(163, 6, 155);
+    transition: color .4s ease-out;
+}
+
+}
+/*tablet ou paisagem */
+@media (min-width:576px) and (max-width:767.98px){
+    nav img{
+        width:17vh;
+        height: 17vh;
+        top: 2vh;
+        left:5vh;
+    }
+
+    .up{
+        right: 11vh;
+        top: 5vh;
+    }
+    .contact{
+        position: absolute;
+        right:22vh;
+        top: 13vh;
+    }
+                    
+    .profile{
+        border-radius: 50%;
+        display: block;
+        width: 30vh;
+        height: 30vh;
+        margin-left:auto;
+        margin-right: auto;
+        margin-top: 8vh; 
+    }
+    .name{
+        padding-top:10px;
+        font-size:135%;
+    }
+    .dev{
+        font-size:150%;
+    }
+    
+    
+}
+
+/*Tablet em retrato e paisagem em desktop*/
+@media (min-width:768px) and (max-width:991.98px){
+    nav img{
+        height:19vh;
+        width:19vh;
+        top:3vh;
+        left:6vh;
+    }
+    .up{
+        right:11vh ;
+        top: 5vh;
+    }
+    .contact{
+        position: absolute;
+        right:22vh;
+        top: 13vh;
+    }
+                    
+    .profile{
+        border-radius: 50%;
+        display: block;
+        width: 35vh;
+        height: 35vh;
+        margin-left:auto;
+        margin-right: auto;
+        margin-top: 7vh; 
+    }
+    .name{
+        padding-top: 5px;
+        font-size:150%;
+    }
+    .dev{
+        font-size:165%;
+    }
+    
+}
