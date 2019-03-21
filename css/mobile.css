@@ -5,93 +5,89 @@
        (min-resolution: 120dpi) {
 
 }
-/*Paisagem e abaixo*/
-@media (max-width:575.98px){
-nav {
-    width:100%;
-    height:9vh;
-    background: linear-gradient(to top, rgba(125, 6, 65, 0.1)80%, rgba(139, 0, 139, 0));
+@media only screen and (max-width: 575.98) and (orientation :landscape ){
+    .logo-e10{
+        display: none;
+        background: blue;
+    }
+}
+/*Paisagem */
+@media only screen and  (max-width:575.98px){
+    nav {
+        width:100%;
+        height: 9vh;
+        background: linear-gradient(to top, rgba(125, 6, 65, 0.1)80%, rgba(139, 0, 139, 0));
+    }
+    .social{
+        right:24vh!important;
+    }
+    .up , .contact, .logo-e10{
+        display : none;
+    }
+                    
+    .profile{
+        border-radius: 50%;
+        display: block;
+        width: 35vh;
+        height: 35vh;
+        margin-left:auto;
+        margin-right: auto;
+        margin-top: 4vh; 
+    }
+    .name{
+        padding-top:20px;
+        font-size:130%;
+    }
+    .dev{
+        padding-top:5px; 
+        font-size:145%;
+    }
 
-}
+    /* Footer */
+    
+    footer{ 
+        display:grid;
+        grid-gap:10px;
+        width: 100%;
+        height: 10vh;
+        background-image: none;
 
-nav img {
-    width:80px;
-    height: 80px;
-    left: 2vh;
-    top: 2vh;
-}
-.up{
-    right: 12vh;
-    top: 5vh;
-
-}
-.contact{
-    right:18vh !important;
-    top: 12vh !important;
-}
-                
-.profile{
-    border-radius: 50%;
-    display: block;
-    width: 35vh;
-    height: 35vh;
-    margin-left:auto;
-    margin-right: auto;
-    margin-top: 5vh !important; 
-}
-.name{
-    padding-top:5px;
-    font-size:120%;
-}
-.dev{
-    font-size:135%;
-}
-
- /* Footer */
- 
-.grid-footer{ 
-    display:grid;
-    grid-gap:10px;
-    width: 100%;
-    height: 10vh;
-    background-image: none;
-
-}
-.footer{ 
-    bottom: 0;
-    position: absolute;
-}
-.social{
-    position: absolute;
-    right: 10vh;
-    top: 4vh;
-}
-.fab{
-    color: rgb(125, 6, 65);
-}
-.fab:hover{
-    color: rgb(163, 6, 155);
-    transition: color .4s ease-out;
-}
-
+    }
+    .footer{ 
+        bottom: 0;
+        position: absolute;
+    }
+    .social{
+        position: absolute;
+        right: 10vh;
+        top: 4vh;
+    }
+    .fab{
+        color: rgb(125, 6, 65);
+    }
+    .fab:hover{
+        color: rgb(163, 6, 155);
+        transition: color .4s ease-out;
+    }
+    
 }
 /*tablet ou paisagem */
-@media (min-width:576px) and (max-width:767.98px){
-    nav img{
+@media only screen and  (min-width:576px) and (max-width:767.98px){
+    .logo-e10{
         width:17vh;
         height: 17vh;
-        top: 2vh;
-        left:5vh;
+        top: 4vh;
+        left:8vh;
+    }
+    .social{
+        top: 8vh;
+        right: 7vh;
     }
 
-    .up{
-        right: 11vh;
-        top: 5vh;
-    }
     .contact{
         position: absolute;
-        right:22vh;
-        top: 13vh;
+        right:15vh;
+        top: 17vh;
     }
                     
     .profile{
@@ -104,18 +100,19 @@ nav img {
         margin-top: 8vh; 
     }
     .name{
-        padding-top:10px;
-        font-size:135%;
+        padding-top:15px;
+        font-size:160%;
     }
     .dev{
-        font-size:150%;
+        padding-top: 10px;
+        font-size:165%;
     }
     
     
 }
 
 /*Tablet em retrato e paisagem em desktop*/
-@media (min-width:768px) and (max-width:991.98px){
+@media only screen and (min-width:768px) and (max-width:991.98px){
     nav img{
         height:19vh;
         width:19vh;
