@@ -1,8 +1,6 @@
 ﻿# Arquivos que serão ignorados pelo git
-dist/
-docs/
-node_modules/
-.sublime-gulp-cache
-sublime-gulp.log
-sublime-gulp-ymps.js
+dist
+docs
+node_modules
+
 

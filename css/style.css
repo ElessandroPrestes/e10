@@ -5,8 +5,8 @@ body{
    /* font-family: 'Finger Paint', cursive;*/
      font-family: 'Cinzel', serif;
      background-color:  rgb(0, 0, 0);
-     color: white;
- 
+     color: rgba(255, 255, 255, 1.0);
+
 }
 
 /* Nav */
