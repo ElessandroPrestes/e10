@@ -23,39 +23,23 @@ body{
     top: 5vh;
     display: flex;
 }
-.fab{
-    color: rgb(125, 6, 65);
-}
-.fab:hover{
-    color: rgb(163, 6, 155);
-    transition: color .4s ease-out;
-}
-.up{
-    position: absolute;
-    right: 11vh;
-    top: 6vh;
-}
+
 .flash{
     animation-name: flash;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
 }
 @keyframes flash{
    0%{
-        color: white;
+    color: rgb(125, 6, 65);
    }
    50%{
     color: rgb(163, 6, 155);
 
    } 
    100%{
-        color: white;
+    color:rgba(255,255,255,1.0)
    }
-}
-.contact{
-    position: absolute;
-    right:22vh;
-    top:14vh;
 }
 
 
