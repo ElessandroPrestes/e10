@@ -1,29 +1,3 @@
- 
-
-/*Animação scroll javascript puro
-const debounce = function (func, wait, immediate){
-    let timeout;
-    return function(...args){
-        const context = this;
-        const later = function(){
-            timeout = null;
-            if(!imediate) func.apply(context, args);
-        };
-        const callNow = immediate && !timeout;
-        clearTimeout(timeout);
-        timeout = setTimeout(later, wait);
-        if(callNow) func.apply(context, args);
-    };
-};
-*/
-function trocar(){
-    var obj=document.getElementById("body");
-    if (obj.className=='white'){
-        obj.className='black';
-    }else{
-        obj.className='white';
-    }
-}
 
 const target = document.querySelectorAll('[data-anime]');
 const animationClass = 'animate';
@@ -47,6 +21,5 @@ window.addEventListener('scroll', debounce(function(){
     animeScroll();
     },200));
 }
-
 
 

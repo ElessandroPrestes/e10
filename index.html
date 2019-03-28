@@ -36,9 +36,9 @@
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Finger+Paint" rel="stylesheet">
 
-    <link rel="shortcut icon" type="image/x-icon" href="img/16E10.ico">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/mobile.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/16E10.ico">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/mobile.css" rel="stylesheet">
 
     <!-- Arquivo após concatena e minificado 
     <link href="_css/main.css" rel="stylesheet" type="text/css"> 
@@ -47,48 +47,40 @@
 
 <body>
 
-    <nav>
+    <header>
+      <img class="logo-e10" data-anime="left" src="assets/img/E10.png">
+        <nav class="menu">
 
-        <img class="logo-e10" data-anime="left" src="img/E10.png">
+            <div data-anime="right" class="social">
+                <a href="https://github.com/ElessandroPrestes" title="Github do Elessandro" target="blank">
+                    <i class="fab fa-github-square fa-2x flash"></i>
+                </a>
+                &nbsp;
+                <a href="https://www.linkedin.com/in/elessandro-prestes-macedo-278189126/"
+                    title="Linkedin do Elessandro" target="blank">
+                    <i class="fab fa-linkedin fa-2x flash"></i>
+                </a>
+                &nbsp;
+                <a href="https://twitter.com/E1099578061" title="Twitter do Elessandro" target="blank">
+                    <i class="fab fa-twitter-square fa-2x flash"></i>
+                </a>
+            </div>
 
-        <div data-anime="right" class="social">
-            <a href="https://github.com/ElessandroPrestes" title="Github do Elessandro" target="blank">
-                <i class="fab fa-github-square fa-2x flash"></i>
-            </a>
-            &nbsp;
-            <a href="https://www.linkedin.com/in/elessandro-prestes-macedo-278189126/" title="Linkedin do Elessandro"
-                target="blank">
-                <i class="fab fa-linkedin fa-2x flash"></i>
-            </a>
-            &nbsp;
-            <a href="https://twitter.com/E1099578061" title="Twitter do Elessandro" target="blank">
-                <i class="fab fa-twitter-square fa-2x flash"></i>
-            </a>
-            &nbsp;
-            <a href="https://wa.me/5545999178290" title="Número do whatsapp" target="blank">
-                <i class="fab fa-whatsapp-square fa-2x flash"></i>
-            </a>
-            &nbsp;
-            <a href="https://www.facebook.com/Sandrinh01?ref=bookmarks" title="Facebook do ELessandro" target="blank">
-                <i class="fab fa-facebook-square fa-2x flash"></i>
-            </a>
-        </div>
-
-    </nav>
-
+        </nav>
+    </header>
     <!--Main-->
     <main>
         <section>
             <div data-anime="top">
-                
-                <img class="profile" src="img/elessandro.jpg" alt="Foto do perfil Elessandro">
-                
+
+                <img class="profile" src="assets/img/elessandro.jpg" alt="Foto do perfil Elessandro">
+
             </div>
             <div class=" name" data-anime="top">
                 <h1>Elessandro</h1>
             </div>
             <div class="  dev" data-anime="top">
-                <h2> Desenvolvedor Web </h2>
+                <h2> Web Developer </h2>
             </div>
 
         </section>
@@ -97,7 +89,7 @@
 
     <!--Footer-->
 
-    <footer> 
+    <footer>
         <div class="copyright">
             <p>Copyright&nbsp;<i class="far fa-copyright"></i>
                 2015-2019 - E10. Todos os direitos reservados.
