@@ -1,3 +1,5 @@
+(function(win){
+'use strict'
 
 const target = document.querySelectorAll('[data-anime]');
 const animationClass = 'animate';
@@ -22,4 +24,4 @@ window.addEventListener('scroll', debounce(function(){
     },200));
 }
 
-
+})(window);
