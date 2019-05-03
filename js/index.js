@@ -1,27 +1,68 @@
-(function(win){
-'use strict'
 
-const target = document.querySelectorAll('[data-anime]');
-const animationClass = 'animate';
-//Função da animação scroll
-function animeScroll(){
-    const windowTop = window.pageYOffset + ((window.innerHeight * 0.75));
-    target.forEach(function(element){
-        if((windowTop) > element.offsetTop){
-            element.classList.add(animationClass);
-        }else{
-            element.classList.remove(animationClass);
-        }
-    })
-}
+(function(win, doc){
+'use strict';
 
-animeScroll();
+    const target = doc.querySelectorAll('[data-anime]');
+    const animationClass = 'animate';
 
-//Verifica se tem algum evento de scroll acontecendo.
-if(target.length){
-window.addEventListener('scroll', debounce(function(){
+    function animeScroll(){
+        const windowTop = win.pageYOffset + ((win.innerHeight * 0.75));
+        target.forEach(function(element){
+            if((windowTop) > element.offsetTop){
+                element.classList.add(animationClass);
+            }else{
+                element.classList.remove(animationClass);
+            }
+        })
+    }
+
     animeScroll();
-    },200));
-}
 
-})(window);
+    /*Verifica se tem algum evento de scroll acontecendo.
+    if(target.length){
+    win.addEventListener('scroll', debounce(function(){
+        animeScroll();
+        },250));
+    }
+*/
+    //Api github
+    function getApiGitHub(){
+    let ajax = new XMLHttpRequest();
+    let data = 'https://api.github.com/users/elessandroprestes';
+    ajax.open('GET', data, true);
+    ajax.send();
+
+    ajax.onreadystatechange = function () {
+        if (ajax.readyState == 4 && ajax.status == 200){
+            data.foreach((element)=>{
+                let $div = doc.querySelector('[data-js="dropdown-js"]');
+            });
+        }
+    };
+    }
+
+//Modal
+    
+    let modal = doc.querySelector('[data-js="jsModal"]');
+
+    let btn = doc.querySelector('[data-js="jsBtn"]');
+
+    let close = doc.querySelector('[data-js="jsClose"]');
+
+
+    btn.addEventListener("click", function(){
+        modal.style.display = "block";
+    });
+
+    close.addEventListener("click", function() {
+        modal.style.display = "none";
+    });
+
+    win.addEventListener("click", function(e) {
+        if (e.target == modal) {
+            modal.style.display = "none";
+        }
+    });
+
+
+})(window, document);

@@ -2,7 +2,6 @@
     margin: 0;
     padding:0;
     font-family: 'Cinzel', serif;
-
 }
 body{
     background-color:  rgb(20, 20, 20);
@@ -35,20 +34,85 @@ header{
 .language{
     padding-top: 2vh;
 }
-.menu-desktop{
+
+.btnProjects{
+    text-align: center !important;
+    float: left;
+    margin: 2vh auto;
+    background-color: rgb(25, 25, 25);
+    border:none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 4px 32px;
+}
+.btnProjects:focus{
+    display:none;
+}
+.btnProjects:hover{
+    color: aqua;
+}
+.modal{
+    display: none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.6)
+}
+.card{
+    color: rgb(255, 255, 255);
+    padding: 2vh;
+    border-radius:25px;
+    width: 20vw;
+    height: 15vh;
+}
+
+.card-content1{
+    margin:10vh auto;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); 
+}
+.card-content2{
+    margin:5vh auto;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
+}
+.card-content1  a , .card-content2 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
     text-align: center;
-    padding-top: 1vh;
+}
+.card-content1 p, .card-content2 p{
+    margin-top: 5vh ;
 }
 
-.menu-desktop ul{
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
+.close {
+    color: rgb(255,255,255);
+    float: right;
+    margin: 8vh 2vw;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: rgba(122, 41, 122,1.0);
+  text-decoration: none;
+  cursor: pointer;
 }
 
-.menu-desktop li{
-    list-style-type: none;
+.menu-mobile, .menu-btn{
+    display:none;
 }
+
+.dropbtn{
+    margin: 0 auto;
+}
+
+
 li a, .dropbtn{
     display:inline-block;
     text-decoration: none;
@@ -70,7 +134,6 @@ li.dropdown {
     text-decoration:none;
     font-size:2em;
     color:rgba(255,255,255,1.0);
-    text-decoration:none;
 }
 .dropdown-content a:hover{
     color: aquamarine;
@@ -78,13 +141,7 @@ li.dropdown {
 .dropdown:hover .dropdown-content{
     display: block;
 }
-.menu-mobile, .menu-btn{
-    display:none;
-}
 
-.dropbtn{
-    margin: 0 auto;
-}
 
 .language{
     float: left;
@@ -105,7 +162,7 @@ li.dropdown {
 .description{
     font-size: 2rem;
     margin: 18vh 8vw 2vh 8vw;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 /*FOOTER*/
