@@ -36,7 +36,6 @@ header{
 }
 
 .btnProjects{
-    text-align: center !important;
     float: left;
     margin: 2vh auto;
     background-color: rgb(25, 25, 25);
@@ -65,6 +64,7 @@ header{
     background-color: rgba(0, 0, 0, 0.6)
 }
 .card{
+    margin:12vh auto 3vh auto;
     color: rgb(255, 255, 255);
     padding: 2vh;
     border-radius:25px;
@@ -73,11 +73,10 @@ header{
 }
 
 .card-content1{
-    margin:10vh auto;
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); 
 }
 .card-content2{
-    margin:5vh auto;
+    margin:auto;
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
 }
 .card-content1  a , .card-content2 a{
@@ -93,7 +92,7 @@ header{
 .close {
     color: rgb(255,255,255);
     float: right;
-    margin: 8vh 2vw;
+    margin: 10vh 3vw;
     font-size: 28px;
     font-weight: bold;
 }
@@ -142,16 +141,10 @@ li.dropdown {
     display: block;
 }
 
-
-.language{
-    float: left;
-    margin:1vh auto auto 3vh;
-}
 .social-icon{
     float: right;
-    position: absolute;
-    top:1.5vw;
-    right: 3vh;
+    margin: 2.3vh 3vw;
+    font-size: 2rem;
 }
 .social-icon a{
     padding-right: 1px;
@@ -161,7 +154,7 @@ li.dropdown {
 
 .description{
     font-size: 2rem;
-    margin: 18vh 8vw 2vh 8vw;
+    margin: 18vh 6vw 2vh 14vw;
     letter-spacing: 2px;
 }
 
