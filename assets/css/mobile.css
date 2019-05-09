@@ -1,19 +1,44 @@
 
-/* mobile */
 
-/*Paisagem */
-@media only screen and  (max-width:575.98px){
-    nav {
-        width:100vw;
-        
-    }
+@media only screen and (max-width:575.98px) and  (orientation:landscape){
     .btnProjects{
+        font-size:1.4rem !important;
+        padding:1px 15px;
+    }
+    .btnProjects:hover{
+        display: none;
+    }
+    .social-icon{
+        margin-top: 1vh;
+        font-size: 1.8rem;
+    }
+    .description{
+        margin: 12vh 6vw 2vh 14vw !important;
+
+    }
+    .description h1, h2{
         font-size:1.5rem;
-        padding: 2px 20px;
+
+    }
+    .card{
+        height: 20vh;
+    }
+}
+
+
+@media only screen and  (max-width:575.98px){
+    
+    .btnProjects{
+        font-size:1.8rem;
+        padding: 1px 20px;
+    }
+    .btnProjects:hover{
+        display: none;
     }
     .social-icon{
         right: 3vw;
-        top:2.5vw;
+        top:1vh;
+        font-size: 2rem;
     }
     .card{
         padding: 5vh;
@@ -24,8 +49,8 @@
         margin: 10vh 3vw;
     }
     .description{
-        font-size:1.5rem;
-        margin: 15vh 12vw 3vh 14vw;
+        font-size:1.2rem;
+        margin: 12vh 11vw 3vh 15vw;
     }
 
     .copyright{
@@ -34,22 +59,11 @@
 
 }
 
-@media only screen and (max-width:575.98px) and  (orientation:landscape){
-    .btnProjects{
-        font-size:1.3rem;
-        padding:1px 15px;
-    }
-    .social-icon{
-        margin-top: 1vh;
-        font-size: 1.8rem;
-    }
-    .card{
-        height: 20vh;
-    }
-}
 
 @media only screen and  (min-width:576px) and (max-width:767.98px){
-    
+    .btnProjects:hover{
+        display: none;
+    }
     .card{
         padding: 3vh;
         width: 40vw;
@@ -58,37 +72,50 @@
         margin: 6vh 4vw;
     }               
     .description{
-        margin: 12vh 13vw 2vh 13vw;
-        font-size:1.6rem;
+        font-size:1.8rem;
     }
     
 }
 
 @media only screen and (max-width:767.98px) and (orientation:landscape){
-    .description{
-        margin: 25vh 13vw 2vh 13vw;
+    .btnProjects{
+        font-size: 1.5rem !important;
+        padding:1px 15px;
+    }
+    .btnProjects:hover{
+        display: none;
+    }
+    .description h1, h2{
+        font-size: 2rem !important;
     }
 }
 @media only screen and (min-width:768px) and (max-width:991.98px){
-                   
+    .btnProjects{
+        margin-top:3vh;
+    }
+    .btnProjects:hover{
+        display: none;
+    }               
     .description{
-        margin: 8vh 14vw 2vh 13vw;
-        font-size:1.5rem;
+        margin: 14vh 14vw 2vh 13vw;
+        font-size:2rem;
     }
     .card{
         height: 13vh;
         width: 33vw;
     }
     .close{
-        margin: 7vh 3vw;
+        margin: 10vh 2vw;
     }
     .social-icon{
-        margin: 2vh 1vw;
+        margin: 3vh 1vw;
+        font-size: 2.5rem;
     }
     
 }
 @media only screen and (max-width:991.98px) and (orientation:landscape){
     .description{
-        margin: 25vh 13vw 2vh 13vw;
+        margin: 12vh 13vw 2vh 13vw;
+        font-size:1.5rem;
     }
 }

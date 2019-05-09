@@ -18,29 +18,23 @@
 
     animeScroll();
 
-    /*Verifica se tem algum evento de scroll acontecendo.
-    if(target.length){
-    win.addEventListener('scroll', debounce(function(){
-        animeScroll();
-        },250));
-    }
-*/
-    //Api github
-    function getApiGitHub(){
-    let ajax = new XMLHttpRequest();
-    let data = 'https://api.github.com/users/elessandroprestes';
-    ajax.open('GET', data, true);
-    ajax.send();
+    
+    /*Api github
+        function getApiGitHub(){
+        let ajax = new XMLHttpRequest();
+        let data = 'https://api.github.com/users/elessandroprestes';
+        ajax.open('GET', data, true);
+        ajax.send();
 
-    ajax.onreadystatechange = function () {
-        if (ajax.readyState == 4 && ajax.status == 200){
-            data.foreach((element)=>{
-                let $div = doc.querySelector('[data-js="dropdown-js"]');
-            });
+        ajax.onreadystatechange = function () {
+            if (ajax.readyState == 4 && ajax.status == 200){
+                data.foreach((element)=>{
+                    let $div = doc.querySelector('[data-js="dropdown-js"]');
+                });
+            }
+        };
         }
-    };
-    }
-
+    */
 //Modal
     
     let modal = doc.querySelector('[data-js="jsModal"]');
@@ -49,12 +43,13 @@
 
     let close = doc.querySelector('[data-js="jsClose"]');
 
-
-    btn.addEventListener("click", function(){
+    btn.addEventListener("click", function(e){
+        e.preventDefault();
         modal.style.display = "block";
     });
 
-    close.addEventListener("click", function() {
+    close.addEventListener("click", function(e) {
+        e.preventDefault();
         modal.style.display = "none";
     });
 
