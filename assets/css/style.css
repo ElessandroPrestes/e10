@@ -31,25 +31,19 @@ body{
 header{
     background-color: rgb(25, 25, 25);
 }
-.language{
-    padding-top: 2vh;
-}
 
 .btnProjects{
     float: left;
-    margin: 2vh auto;
-    background-color: rgb(25, 25, 25);
-    border:none;
-    color: rgb(255, 255, 255);
+    margin-top: 2vh;
+    margin-left: 2vw;
     cursor: pointer;
     font-size: 2rem;
-    padding: 4px 32px;
 }
-.btnProjects:focus{
-    display:none;
+.line{
+    border-bottom: 2px solid aqua;
 }
-.btnProjects:hover{
-    color: aqua;
+.btnProjects:hover .line{
+    display: block;
 }
 .modal{
     display: none;
