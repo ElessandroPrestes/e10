@@ -2,35 +2,30 @@
 
 @media only screen and (max-width:575.98px) and  (orientation:landscape){
     .btnProjects{
-        font-size:1.4rem !important;
-        padding:1px 15px;
+        font-size:1rem !important;
     }
     
     .social-icon{
         margin-top: 1vh;
-        font-size: 1.8rem;
+        font-size: 1rem;
     }
     .description{
-        margin: 12vh 6vw 2vh 14vw !important;
-
+        font-size: 1rem !important;
     }
-    .description h1, h2{
-        font-size:1.5rem;
-
-    }
+    
     
 }
 @media only screen and  (max-width:575.98px){
     
     .btnProjects{
-        font-size:1.8rem;
+        font-size:1.5rem;
         padding: 1px 20px;
     }
     
     .social-icon{
         right: 3vw;
         top:1vh;
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
     .card{
         width: 80vw;
@@ -41,16 +36,15 @@
     }
     .description{
         font-size:1.2rem;
-        margin: 10vh 15vw auto ;
+        margin: 6vh 15vw auto ;
     }
 
     .copyright{
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
 }
 @media only screen and  (min-width:576px) and (max-width:767.98px){
-    
     
     .close{
         margin: 10vh 4vw;
@@ -62,17 +56,21 @@
 }
 @media only screen and (max-width:767.98px) and (orientation:landscape){
     .btnProjects{
-        font-size: 1.8rem !important;
-        padding:1px 15px;
+        margin-top: 1vh;
+        font-size: 1.5rem !important;
+    }
+    .card{
+        width:35vw !important;
     }
     .social-icon{
-        font-size: 2rem !important;
+        margin-top: 1vh;
+        font-size: 1.8rem !important;
     }
     .description h1, h2{
-        font-size: 2.5rem !important;
+        font-size: 1.8rem !important;
     }
     .copyright{
-        font-size: 1.1rem !important;
+        font-size: 1rem !important;
     }
     
 }
@@ -86,7 +84,8 @@
         font-size:2.5rem;
     }
     .card{
-        width: 60vw;
+        width: 45vw;
+        height: 17vh;
     }
     .card p{
         font-size: 2.3rem;
@@ -126,11 +125,11 @@
         font-size: 3rem;
     }
     .social-icon{
-        font-size: 3rem;
+        font-size: 3rem !important;
     }
     
     .card{
-        width: 40vw;
+        width: 50vw;
     }
     .card p{
         font-size: 2.2rem;
