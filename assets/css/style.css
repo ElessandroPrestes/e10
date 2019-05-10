@@ -58,19 +58,21 @@ header{
     background-color: rgba(0, 0, 0, 0.6)
 }
 .card{
-    margin:12vh auto 3vh auto;
+    margin:12vh auto 2vh;
     color: rgb(255, 255, 255);
-    padding: 2vh;
     border-radius:25px;
-    width: 20vw;
-    height: 15vh;
+    border:solid 2px #ffffff;
+    width: 25vw;
+    height: 20vh;
 }
-
+.card p{
+    padding-top: 7vh;
+}
 .card-content1{
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); 
 }
 .card-content2{
-    margin:auto;
+    margin-top:auto;
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
 }
 .card-content1  a , .card-content2 a{
@@ -79,9 +81,7 @@ header{
     font-size: 1.5rem;
     text-align: center;
 }
-.card-content1 p, .card-content2 p{
-    margin-top: 5vh ;
-}
+
 
 .close {
     color: rgb(255,255,255);
@@ -90,8 +90,7 @@ header{
     font-size: 28px;
     font-weight: bold;
 }
-.close:hover,
-.close:focus {
+.close:hover {
   color: rgba(122, 41, 122,1.0);
   text-decoration: none;
   cursor: pointer;
@@ -148,7 +147,7 @@ li.dropdown {
 
 .description{
     font-size: 2rem;
-    margin: 18vh 6vw 2vh 14vw;
+    margin: 18vh 8vw auto;
     letter-spacing: 2px;
 }
 
@@ -156,7 +155,7 @@ li.dropdown {
 
 .copyright{
     text-align:center;
-    font-size: 1.1em;
+    font-size: 1.1rem;
 }
 footer{
     background-color: rgb(25, 25, 25);
@@ -164,7 +163,6 @@ footer{
 footer  p{
     padding-top:3vh;
 }
-
 
 /* Animation*/
 

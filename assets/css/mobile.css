@@ -20,8 +20,6 @@
     }
     
 }
-
-
 @media only screen and  (max-width:575.98px){
     
     .btnProjects{
@@ -35,75 +33,109 @@
         font-size: 2rem;
     }
     .card{
-        padding: 3vh;
-        width: 40vw;
+        width: 80vw;
     }
     
     .close{
         margin: 10vh 3vw;
     }
     .description{
-        font-size:1.2rem;
-        margin: 12vh 11vw 3vh 15vw;
+        font-size:1.5rem;
+        margin: 8vh 15vw auto ;
     }
 
     .copyright{
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
 }
-
-
 @media only screen and  (min-width:576px) and (max-width:767.98px){
     
-    .card{
-        padding: 3vh;
-        width: 40vw;
-    }
+    
     .close{
-        margin: 6vh 4vw;
+        margin: 10vh 4vw;
     }               
     .description{
         font-size:1.8rem;
     }
     
 }
-
 @media only screen and (max-width:767.98px) and (orientation:landscape){
     .btnProjects{
-        font-size: 1.5rem !important;
+        font-size: 1.8rem !important;
         padding:1px 15px;
     }
-    
-    .description h1, h2{
+    .social-icon{
         font-size: 2rem !important;
     }
+    .description h1, h2{
+        font-size: 2.5rem !important;
+    }
+    .copyright{
+        font-size: 1.1rem !important;
+    }
+    
 }
 @media only screen and (min-width:768px) and (max-width:991.98px){
     .btnProjects{
-        margin-top:3vh;
+        font-size: 2.5rem;
     }
                   
     .description{
-        margin: 14vh 14vw 2vh 13vw;
-        font-size:2rem;
+        margin: 14vh 10vw auto;
+        font-size:2.5rem;
     }
     .card{
-        height: 13vh;
-        width: 33vw;
+        width: 60vw;
+    }
+    .card p{
+        font-size: 2.3rem;
     }
     .close{
         margin: 10vh 2vw;
     }
     .social-icon{
-        margin: 3vh 1vw;
-        font-size: 2.5rem;
+        font-size: 3rem;
+    }
+    .copyright{
+        font-size: 2rem;
     }
     
 }
 @media only screen and (max-width:991.98px) and (orientation:landscape){
+    .btnProjects{
+        font-size: 1.5rem;
+    }
+    .card{
+        width: 35vw;
+        height:20vh;
+    }
     .description{
         margin: 12vh 13vw 2vh 13vw;
         font-size:1.5rem;
+    }
+    .social-icon{
+        font-size: 1.5rem;
+    }
+    .copyright{
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width:1200px){
+    .btnProjects{
+        font-size: 3rem;
+    }
+    .social-icon{
+        font-size: 3rem;
+    }
+    
+    .card{
+        width: 40vw;
+    }
+    .card p{
+        font-size: 2.2rem;
+    }
+    .copyright{
+        font-size: 2rem;
     }
 }
