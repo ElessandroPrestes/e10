@@ -1,21 +1,25 @@
-var gulp = require('gulp');
-var watch = require('gulp-watch');
-var uglify = require('gulp-uglify');
-var pipeline = require('readable-stream').pipeline;
-var pump  =  require('pump');
-var concat = require('gulp-concat');
-var notify = require('gulp-notify');
+let gulp = require('gulp');
+let watch = require('gulp-watch');
+let uglify = require('gulp-uglify');
+let pipeline = require('readable-stream').pipeline;
+let pump  =  require('pump');
+let concat = require('gulp-concat');
+let notify = require('gulp-notify');
+let css = require('gulp-clean-css');
 
-/*Minificando JS */
-gulp.task('minifyJS', function (){
-  return pipeline(
-    gulp.src('js/index.js'),
-    uglify(),
-    gulp.dest('dist/js/')
-  )
+/*Minificando css*/
+gulp.task('mincss', () =>{
+  return gulp.src('assets/css/*css')
+  .pipe(css())
+  .on("error", notify.onError("Error: <%= error.message %>"))
+  .pipe(gulp.dest('dist/css/minify/'));
 });
 
+
+/*Minificando JS */
+
+
 //Deixando o function automatizado.
-gulp.task('default',['minifyJS'],function () {
-    gulp.watch('src/js/index.js', ['minifyJS']);
+gulp.task('default',['mincss'], () => {
+    gulp.watch('assets/css/*css', ['mincss']);
 });

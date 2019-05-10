@@ -44,6 +44,7 @@ header{
 }
 .btnProjects:hover .line{
     display: block;
+    transition: 2s;
 }
 .modal{
     display: none;
