@@ -1,6 +1,4 @@
-﻿# Arquivos que serão ignorados pelo git
-dist
-docs
+﻿
 node_modules
 
 
