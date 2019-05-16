@@ -4,7 +4,7 @@
     font-family: 'Cinzel', serif;
 }
 body{
-    background-color:  rgb(20, 20, 20);
+    background-color: rgb(25, 25, 25);
      color: rgba(255, 255, 255, 1.0);
 }
 .container{
@@ -28,10 +28,6 @@ body{
    
 /* HEADER */
 
-header{
-    background-color: rgb(25, 25, 25);
-}
-
 .btnProjects{
     float: left;
     margin-top: 2vh;
@@ -40,7 +36,7 @@ header{
     font-size: 2rem;
 }
 .line{
-    border-bottom: 2px solid aqua;
+    border-bottom: 3px solid  #c709bd;
 }
 .btnProjects:hover .line{
     display: block;
@@ -68,6 +64,7 @@ header{
 }
 .card p{
     padding-top: 7vh;
+    font-size: 2rem;
 }
 .card-content1{
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); 
@@ -83,12 +80,11 @@ header{
     text-align: center;
 }
 
-
 .close {
     color: rgb(255,255,255);
     float: right;
     margin: 10vh 3vw;
-    font-size: 28px;
+    font-size: 2rem;
     font-weight: bold;
 }
 .close:hover {
@@ -148,7 +144,7 @@ li.dropdown {
 
 .description{
     font-size: 2rem;
-    margin: 18vh 8vw auto;
+    margin: 18vh 9vw auto;
     letter-spacing: 2px;
 }
 
@@ -156,11 +152,9 @@ li.dropdown {
 
 .copyright{
     text-align:center;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
-footer{
-    background-color: rgb(25, 25, 25);
-}
+
 footer  p{
     padding-top:3vh;
 }

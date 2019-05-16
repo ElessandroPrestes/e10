@@ -1,160 +1,3 @@
-@media only screen and (max-width:575.98px) and  (orientation:landscape) {
-  .btnProjects {
-    margin-top: 0 !important;
-    font-size: 1rem !important;
-  }
-
-  .social-icon {
-    margin-top: 0 !important;
-    font-size: 1rem;
-  }
-
-  .description {
-    font-size: 1.1rem !important;
-  }
-}
-
-@media only screen and  (max-width:575.98px) {
-  .btnProjects {
-    font-size: 1.8rem;
-    padding: 1px 20px;
-  }
-
-  .social-icon {
-    right: 3vw;
-    top: 1vh;
-    font-size: 2rem;
-  }
-
-  .card {
-    width: 80vw;
-  }
-
-  .close {
-    margin: 10vh 3vw;
-  }
-
-  .description {
-    font-size: 1.3rem;
-    margin: 6vh 15vw auto;
-  }
-
-  .copyright {
-    font-size: 1.2rem;
-  }
-}
-
-@media only screen and  (min-width:576px) and (max-width:767.98px) {
-  .close {
-    margin: 10vh 4vw;
-  }
-
-  .description {
-    font-size: 1.8rem;
-  }
-}
-
-@media only screen and (max-width:767.98px) and (orientation:landscape) {
-  .btnProjects {
-    margin-top: 1vh;
-    font-size: 1.8rem !important;
-  }
-
-  .card {
-    width: 35vw !important;
-  }
-
-  .social-icon {
-    margin-top: 1vh;
-    font-size: 1.8rem !important;
-  }
-
-  .description {
-    font-size: 1.2rem !important;
-  }
-
-  .copyright {
-    font-size: 1.1rem !important;
-  }
-}
-
-@media only screen and (min-width:768px) and (max-width:991.98px) {
-  .btnProjects {
-    font-size: 2.5rem;
-  }
-
-  .description {
-    margin: 14vh 10vw auto;
-    font-size: 2.5rem;
-  }
-
-  .card {
-    width: 45vw;
-    height: 17vh;
-  }
-
-  .card p {
-    font-size: 2.3rem;
-  }
-
-  .close {
-    margin: 10vh 2vw;
-  }
-
-  .social-icon {
-    font-size: 3rem;
-  }
-
-  .copyright {
-    font-size: 2rem;
-  }
-}
-
-@media only screen and (max-width:991.98px) and (orientation:landscape) {
-  .btnProjects {
-    font-size: 1.5rem;
-  }
-
-  .card {
-    width: 35vw;
-    height: 20vh;
-  }
-
-  .description {
-    margin: 12vh 13vw 2vh 13vw;
-    font-size: 1.5rem;
-  }
-
-  .social-icon {
-    font-size: 1.5rem;
-  }
-
-  .copyright {
-    font-size: 1.5rem;
-  }
-}
-
-@media only screen and (min-width: 992px) and (max-width:1200px) {
-  .btnProjects {
-    font-size: 3rem;
-  }
-
-  .social-icon {
-    font-size: 3rem !important;
-  }
-
-  .card {
-    width: 50vw;
-  }
-
-  .card p {
-    font-size: 2.2rem;
-  }
-
-  .copyright {
-    font-size: 2rem;
-  }
-}
 * {
   margin: 0;
   padding: 0;
@@ -162,7 +5,7 @@
 }
 
 body {
-  background-color: rgb(20, 20, 20);
+  background-color: rgb(25, 25, 25);
   color: rgba(255, 255, 255, 1.0);
 }
 
@@ -189,10 +32,6 @@ body {
 
 /* HEADER */
 
-header {
-  background-color: rgb(25, 25, 25);
-}
-
 .btnProjects {
   float: left;
   margin-top: 2vh;
@@ -202,7 +41,7 @@ header {
 }
 
 .line {
-  border-bottom: 2px solid aqua;
+  border-bottom: 3px solid  #c709bd;
 }
 
 .btnProjects:hover .line {
@@ -234,6 +73,7 @@ header {
 
 .card p {
   padding-top: 7vh;
+  font-size: 2rem;
 }
 
 .card-content1 {
@@ -257,7 +97,7 @@ header {
   color: rgb(255,255,255);
   float: right;
   margin: 10vh 3vw;
-  font-size: 28px;
+  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -329,7 +169,7 @@ li.dropdown {
 
 .description {
   font-size: 2rem;
-  margin: 18vh 8vw auto;
+  margin: 18vh 9vw auto;
   letter-spacing: 2px;
 }
 
@@ -337,11 +177,7 @@ li.dropdown {
 
 .copyright {
   text-align: center;
-  font-size: 1.1rem;
-}
-
-footer {
-  background-color: rgb(25, 25, 25);
+  font-size: 1.2rem;
 }
 
 footer  p {
@@ -403,4 +239,140 @@ footer  p {
 .anime-start {
   opacity: 1;
   transform: translate3d(0,0,0);
+}
+@media only screen and (max-width:575.98px) and  (orientation:landscape) {
+  .btnProjects {
+    margin-top: 0 !important;
+    font-size: 1rem !important;
+  }
+
+  .social-icon {
+    margin-top: 0 !important;
+    font-size: 1rem;
+  }
+
+  .description {
+    font-size: 1.1rem !important;
+  }
+}
+
+@media only screen and  (max-width:575.98px) {
+  .btnProjects {
+    font-size: 1.7rem;
+  }
+
+  .social-icon {
+    right: 3vw;
+    top: 1vh;
+    font-size: 1.8rem;
+  }
+
+  .card {
+    width: 80vw;
+  }
+
+  .description {
+    font-size: 1.3rem;
+    margin: 6vh 15vw auto;
+  }
+
+  .copyright {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and  (min-width:576px) and (max-width:767.98px) {
+  .btnProjects {
+    font-size: 2.5rem;
+  }
+
+  .card {
+    width: 60vw;
+  }
+
+  .description {
+    font-size: 1.8rem;
+  }
+
+  .social-icon {
+    font-size: 2.7rem;
+  }
+
+  .copyright {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width:767.98px) and (orientation:landscape) {
+  .card {
+    width: 45vw !important;
+    height: 25vh !important;
+  }
+
+  .social-icon {
+    margin-top: 1vh;
+    font-size: 1.8rem !important;
+  }
+
+  .description {
+    font-size: 1.4rem !important;
+  }
+
+  .copyright {
+    font-size: 1.1rem !important;
+  }
+}
+
+@media only screen and (min-width:768px) and (max-width:991.98px) {
+  .btnProjects {
+    font-size: 2.5rem;
+  }
+
+  .description {
+    margin: 14vh 10vw auto;
+    font-size: 2.5rem;
+  }
+
+  .card {
+    width: 40vw !important;
+    height: 25vh !important;
+  }
+
+  .social-icon {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width:991.98px) and (orientation:landscape) {
+  .btnProjects {
+    font-size: 1.5rem;
+  }
+
+  .card {
+    width: 35vw;
+    height: 20vh;
+  }
+
+  .description {
+    margin: 12vh 13vw 2vh 13vw;
+    font-size: 1.5rem;
+  }
+
+  .social-icon {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width:1200px) {
+  .description {
+    margin: 18vh 12vw;
+  }
+
+  .card {
+    width: 35vw;
+  }
+
+  .copyright {
+    font-size: 1.4rem;
+  }
 }

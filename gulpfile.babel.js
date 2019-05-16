@@ -8,7 +8,7 @@ import uglify from 'gulp-uglify-es';
 import rename from 'gulp-rename';
 
 gulp.task('concatcss', () =>{
-    return gulp.src('assets/css/*css')
+    return gulp.src('assets/css/*.css')
     .pipe(concat("style.css"))
     .on("error", notify.onError("Error: <%= error.message %>"))
     .pipe(gulp.dest('dist/css/concat/'));
@@ -24,7 +24,7 @@ gulp.task('mincss', () =>{
 
 
 gulp.task('minjs', () =>{
-  return gulp.src('js/index.js')
+  return gulp.src('assets/js/index.js')
   .pipe(rename('index.min.js'))
   .pipe(uglify())
   .on("error", notify.onError("Error: <%= error.message %>"))
