@@ -1,51 +1,55 @@
 @media only screen and (max-width:575.98px) and  (orientation:landscape) {
   .btnProjects {
-    margin-top: 0 !important;
     font-size: 1rem !important;
   }
 
+  .card p {
+    font-size: 1.5rem !important;
+  }
+
+  .card {
+    width: 40vw !important;
+  }
+
   .social-icon {
-    margin-top: 0 !important;
-    font-size: 1rem;
+    margin-top: 2vh !important;
+    font-size: 1rem !important;
   }
 
   .description {
-    font-size: 1.1rem !important;
+    margin-top: 2vh !important;
+    font-size: 1rem !important;
   }
 }
 
 @media only screen and  (max-width:575.98px) {
   .btnProjects {
-    font-size: 1.7rem;
+    font-size: 1.6rem !important;
   }
 
   .social-icon {
     right: 3vw;
     top: 1vh;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
 
   .card {
-    width: 80vw;
+    width: 80vw !important;
   }
 
   .description {
-    font-size: 1.3rem;
-    margin: 6vh 15vw auto;
-  }
-
-  .copyright {
-    font-size: 1.2rem;
+    font-size: 1.3rem !important;
+    margin: 6vh 15vw auto !important;
   }
 }
 
 @media only screen and  (min-width:576px) and (max-width:767.98px) {
   .btnProjects {
-    font-size: 2.5rem;
+    font-size: 2.5rem !important;
   }
 
   .card {
-    width: 60vw;
+    width: 60vw !important;
   }
 
   .description {
@@ -53,15 +57,19 @@
   }
 
   .social-icon {
-    font-size: 2.7rem;
+    font-size: 2.7rem !important;
   }
 
   .copyright {
-    font-size: 1.5rem;
+    font-size: 1.5rem !important;
   }
 }
 
 @media only screen and (max-width:767.98px) and (orientation:landscape) {
+  .btnProjects {
+    font-size: 1.5rem !important;
+  }
+
   .card {
     width: 45vw !important;
     height: 25vh !important;
@@ -73,7 +81,7 @@
   }
 
   .description {
-    font-size: 1.4rem !important;
+    font-size: 1.2rem !important;
   }
 
   .copyright {
@@ -92,8 +100,7 @@
   }
 
   .card {
-    width: 40vw !important;
-    height: 25vh !important;
+    width: 45vw !important;
   }
 
   .social-icon {
@@ -102,18 +109,14 @@
 }
 
 @media only screen and (max-width:991.98px) and (orientation:landscape) {
-  .btnProjects {
-    font-size: 1.5rem;
-  }
-
   .card {
-    width: 35vw;
-    height: 20vh;
+    width: 35vw !important;
+    height: 25vh !important;
   }
 
   .description {
-    margin: 12vh 13vw 2vh 13vw;
-    font-size: 1.5rem;
+    margin: 14vh 15vw auto !important;
+    font-size: 1rem !important;
   }
 
   .social-icon {
@@ -122,16 +125,24 @@
 }
 
 @media only screen and (min-width: 992px) and (max-width:1200px) {
+  .btnProjects {
+    font-size: 2rem important;
+  }
+
   .description {
     margin: 18vh 12vw;
   }
 
   .card {
-    width: 35vw;
+    width: 50vw !important;
   }
 
   .copyright {
-    font-size: 1.4rem;
+    font-size: 2rem !important;
+  }
+
+  .card p {
+    font-size: 3rem !important;
   }
 }
 * {
