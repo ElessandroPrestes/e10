@@ -1,28 +1,4 @@
-@media only screen and (max-width:575.98px) and  (orientation:landscape) {
-  .btnProjects {
-    font-size: 1rem !important;
-  }
-
-  .card p {
-    font-size: 1.5rem !important;
-  }
-
-  .card {
-    width: 40vw !important;
-  }
-
-  .social-icon {
-    margin-top: 2vh !important;
-    font-size: 1rem !important;
-  }
-
-  .description {
-    margin-top: 2vh !important;
-    font-size: 1rem !important;
-  }
-}
-
-@media only screen and  (max-width:575.98px) {
+@media only screen and  (max-width:35.99rem) {
   .btnProjects {
     font-size: 1.6rem !important;
   }
@@ -43,8 +19,14 @@
   }
 }
 
-@media only screen and  (min-width:576px) and (max-width:767.98px) {
-  .btnProjects {
+@media only screen and (max-width:35.99rem) and (orientation:landscape) {
+  .card {
+    width: 50vw !important;
+  }
+}
+
+@media only screen and  (min-width:36rem) and (max-width:47.99rem) {
+  btnProjects {
     font-size: 2.5rem !important;
   }
 
@@ -53,102 +35,67 @@
   }
 
   .description {
-    font-size: 1.8rem;
+    font-size: 1.1rem !important;
   }
 
-  .social-icon {
+  social-icon {
     font-size: 2.7rem !important;
   }
 
-  .copyright {
+  copyright {
     font-size: 1.5rem !important;
   }
 }
 
-@media only screen and (max-width:767.98px) and (orientation:landscape) {
-  .btnProjects {
-    font-size: 1.5rem !important;
-  }
-
+@media only screen and (max-width:47.99rem) and (orientation:landscape) {
   .card {
-    width: 45vw !important;
-    height: 25vh !important;
-  }
-
-  .social-icon {
-    margin-top: 1vh;
-    font-size: 1.8rem !important;
+    width: 50vw !important;
   }
 
   .description {
     font-size: 1.2rem !important;
   }
-
-  .copyright {
-    font-size: 1.1rem !important;
-  }
 }
 
-@media only screen and (min-width:768px) and (max-width:991.98px) {
-  .btnProjects {
-    font-size: 2.5rem;
-  }
-
-  .description {
-    margin: 14vh 10vw auto;
-    font-size: 2.5rem;
-  }
-
+@media only screen and (min-width:48rem) and (max-width:61.99rem) {
   .card {
     width: 45vw !important;
   }
-
-  .social-icon {
-    font-size: 3rem;
-  }
 }
 
-@media only screen and (max-width:991.98px) and (orientation:landscape) {
-  .card {
-    width: 35vw !important;
-    height: 25vh !important;
+@media only screen and (max-width:61.99rem) and (orientation:landscape) {
+  .card p {
+    padding-top: 5vh !important;
   }
 
   .description {
-    margin: 14vh 15vw auto !important;
-    font-size: 1rem !important;
-  }
-
-  .social-icon {
-    font-size: 1.5rem;
+    margin: 15vh 15vw auto !important;
+    font-size: 1.2rem !important;
   }
 }
 
-@media only screen and (min-width: 992px) and (max-width:1200px) {
-  .btnProjects {
-    font-size: 2rem important;
-  }
-
+@media only screen and (min-width: 62rem) and (max-width:75rem) {
   .description {
     margin: 18vh 12vw;
   }
 
   .card {
-    width: 50vw !important;
-  }
-
-  .copyright {
-    font-size: 2rem !important;
+    width: 35vw !important;
   }
 
   .card p {
-    font-size: 3rem !important;
+    font-size: 2rem !important;
   }
 }
 * {
   margin: 0;
   padding: 0;
   font-family: 'Cinzel', serif;
+}
+
+a:link {
+  text-decoration: none;
+  color: inherit;
 }
 
 body {
@@ -218,22 +165,28 @@ body {
   height: 20vh;
 }
 
-.card p {
+.card  p {
   padding-top: 7vh;
   font-size: 2rem;
 }
 
-.card-content1 {
-  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+.card-e10 {
+  background: linear-gradient(to left,rgba(0, 0, 0, 1) ,  rgba(122, 41, 122,1.0) 50%);
 }
 
-.card-content2 {
+.card-books {
   margin-top: auto;
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  background-image: linear-gradient( 109.6deg, rgba(135,168,254,1) 11.2%, rgba(254,165,197,1) 100.2% );
 }
 
-.card-content1  a,
-.card-content2 a {
+.card-store {
+  margin-top: auto;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 1),rgba(50,205,50,0.5));
+}
+
+.card-e10  a,
+.card-books a,
+.card-store a {
   text-decoration: none;
   color: rgb(255, 255, 255);
   font-size: 1.5rem;
@@ -324,7 +277,7 @@ li.dropdown {
 
 .copyright {
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 footer  p {
