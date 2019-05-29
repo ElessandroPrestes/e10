@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding:0;
@@ -41,7 +40,7 @@ body{
     font-size: 2rem;
 }
 .line{
-    border-bottom: 3px solid  #c709bd;
+    border-bottom: 1px solid  #c709bd;
 }
 .btnProjects:hover .line{
     display: block;
