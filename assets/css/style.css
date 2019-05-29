@@ -9,7 +9,7 @@ a:link{
 }
 body{
     color: rgba(255, 255, 255, 1.0);
-    background-image: url("../../../assets/img/Constellation.svg");
+    background-image: url("/assets/img/Constellation.svg");
 }
 .container{
     display: grid;
