@@ -80,7 +80,7 @@ body{
     margin-top:auto;
     background: linear-gradient(to top, rgba(255, 255, 255, 1),rgba(50,205,50,0.5)); 
 }
-.card-e10  a , .card-books a, .card-store a{
+.card-books a, .card-store a{
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 1.5rem;
@@ -160,15 +160,7 @@ li.dropdown {
 
 .copyright{
     text-align:center;
-<<<<<<< HEAD
-<<<<<<< HEAD
     font-size: 1.2rem;
-=======
-    font-size: 1.1rem;
->>>>>>> master
-=======
-    font-size: 1.2rem;
->>>>>>> master
 }
 
 footer  p{
