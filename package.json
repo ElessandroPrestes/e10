@@ -1,14 +1,17 @@
 {
-  "name": "e10.com.br",
+  "name": "e10",
   "version": "1.0.0",
-  "description": "Gulp",
-  "main": "gulpfile.js",
+  "description": "Portifólio",
+  "main": "index.js",
   "dependencies": {
     "pump": "^3.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-preset-es2015": "^6.24.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.0",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^4.2.0",
     "gulp-concat-css": "^3.1.0",
@@ -16,14 +19,26 @@
     "gulp-rename": "^1.4.0",
     "gulp-uglify": "^3.0.2",
     "gulp-uglify-es": "^1.0.4",
-    "gulp-watch": "^5.0.1"
+    "gulp-watch": "^5.0.1",
+    "husky": "^3.0.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "./node_modules/.bin/eslint assets/js/ *js",
+    "prepush": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElessandroPrestes/e10.git"
   },
   "keywords": [
-    "gulp"
+    "e10",
+    "portifolio",
+    "full stack"
   ],
-  "author": "Elessandro",
-  "license": "ISC"
+  "author": "Elessandro Prestes Macedo <elessandrodev@gmail.com> (https://elessandroprestes.github.io/e10/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ElessandroPrestes/e10/issues"
+  },
+  "homepage": "https://github.com/ElessandroPrestes/e10#readme"
 }
