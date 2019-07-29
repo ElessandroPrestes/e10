@@ -26,7 +26,7 @@ gulp.task('minjs', () => {
     .pipe(rename('index.min.js'))
     .pipe(uglify())
     .on('error', notify.onError('Error: <%= error.message %>'))
-    .pipe(gulp.dest('assets/js/'));
+    .pipe(gulp.dest('dist/js/'));
 });
 
 gulp.task('imagemin', () => {
@@ -37,6 +37,6 @@ gulp.task('imagemin', () => {
 
 gulp.task('default', ['concss', 'mincss', 'minjs'], () => {
   gulp.watch('assets/css/*.css', ['concss']);
-  gulp.watch('assets/css/style.con.css', ['mincss']);
-  gulp.watch('assets/js/index.js', ['minjs']);
+  gulp.watch('dist/css/style.min.css', ['mincss']);
+  gulp.watch('dist/js/index.js', ['minjs']);
 });

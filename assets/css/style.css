@@ -11,7 +11,7 @@ a:link {
 
 body {
     color: rgba(255, 255, 255, 1.0);
-    background-image: url("/dist/img/Constellation.svg");
+    background-image: url("../img/Constellation.svg");
     letter-spacing: 2px;
 }
 
