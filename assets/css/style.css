@@ -1,9 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Cinzel', serif;
 }
-
+@font-face{
+    font-family:'Cinzel-Regular';
+    src: url("../fonts/Cinzel/Cinzel-Regular.ttf");
+}
 a:link {
     text-decoration: none;
     color: inherit;
@@ -12,6 +14,7 @@ a:link {
 body {
     color: rgba(255, 255, 255, 1.0);
     background-image: url("../img/Constellation.svg");
+    font-family: 'Cinzel-Regular', serif;
     letter-spacing: 2px;
 }
 
